@@ -1,0 +1,30 @@
+First will visit this site : https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
+and do the steps there where you will install ROS1 , then install it's packages 
+
+and after that will install turtlebot3 packages and configure it with your own network
+
+after that will start with the gazebo simulation as you will install the simulation package 
+
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
+
+and then launch the turtlebot3 world (i choose the waffle world)
+
+and from the slam simulation you will run the slam node , and then teleoperation node 
+
+once done you will save a map that you can run on RVIZ 
+
+but you will face a problem where the Robot will be looking in white like this : https://prnt.sc/1fmpjq2
+
+where the robot model is broken , in order to fix it 
+
+1- go to files 
+2- open catkin_ws  -> src ->turtlebot3_simulations -> turtlebot3_gazebo
+3- open the launch files and serach for turtlebot3_word.launch
+4- open the file and add an extra line at the bottom which is for <node>
+ picture of the code : https://prnt.sc/1fmreyh
+
+after doing those 4 steps , and once launghing Rviz and starting the Robot model , the robot will look normal now and can see all details
+https://prnt.sc/1fms6hc
+
+now you can create the map after doing those which will look similar to the simulation world (the waffle one)
+https://prnt.sc/1fmspgz

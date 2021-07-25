@@ -19,7 +19,7 @@ where the robot model is broken , in order to fix it
 
 1- go to files 
 2- open catkin_ws  -> src ->turtlebot3_simulations -> turtlebot3_gazebo
-3- open the launch files and serach for turtlebot3_word.launch
+3- open the launch files and serach for turtlebot3_world.launch
 4- open the file and add an extra line at the bottom which is for <node>
  picture of the code : https://prnt.sc/1fmreyh
 
